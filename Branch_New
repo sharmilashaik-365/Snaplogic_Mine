@@ -1,0 +1,6 @@
+git branch newBranch master
+git stash -u
+git checkout newBranch
+git merge A
+git stash pop
+git add && git commit
